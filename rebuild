@@ -113,7 +113,7 @@ os_type="server"
 builder_name=""
 
 # Get gh_token for api.github.com
-gh_token=""
+gh_token="${{ secrets.GITHUB_TOKEN }}"
 
 # Set font color
 STEPS="[\033[95m STEPS \033[0m]"
