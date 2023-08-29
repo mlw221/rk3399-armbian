@@ -1,3 +1,5 @@
+name: Rebuild Armbian and Kernel
+uses: ophub/amlogic-s9xxx-armbian@Armbian_jammy_save_2023.08            
 name: "Rebuild Armbian and Kernel"
 author: "https://github.com/ophub/amlogic-s9xxx-armbian"
 description: "Support Amlogic, Rockchip and Allwinner boxes."
